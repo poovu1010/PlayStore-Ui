@@ -1,0 +1,86 @@
+@import './styles/layout/mobile/navbar.css';
+@import './styles/layout/mobile/categories.css';
+@import './styles/componenets/btn.css';
+@import './styles/componenets/boxes.css';
+@import './styles/layout/mobile/top-trending.css';
+@import './styles/layout/mobile/allapps.css';
+@import './styles/layout/tablet/tab.css';
+@import './styles/layout/desktop/desktop.css';
+
+
+:root {
+    --background: #121212;
+    --cards: #1E1E1E;
+    --btn: #BB86FC;
+    --heading: #FFFFFF;
+    --medium: #A0A0A0;
+
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.light {
+    /* background: rgb(231, 223, 215); */
+}
+
+body::before {
+    content: "";
+    background-color: var(--background);
+    position: fixed;
+
+
+    inset: 0;
+    z-index: -1;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+
+
+}
+
+body::after {
+    content: "";
+    background-color: var(--background);
+    position: fixed;
+
+
+    inset: 0;
+    z-index: -1;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+
+
+}
+
+.dark::before {
+    transform: translateY(-50%);
+}
+
+.dark::after {
+    transform: translateY(5%);
+}
+
+.dark {
+    color: var(--heading);
+}
+
+.btn.dark {
+    color: #A0A0A0;
+}
+
+body.dark .search-bar-nav {
+    color: aliceblue;
+}
+
+
+
+body.dark .search {
+    filter: invert(1);
+} 
+main{
+    width: 100%;
+}

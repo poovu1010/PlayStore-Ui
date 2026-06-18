@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./assets/main.css">
+
+<body class="light">
+    
+    <header class="nav-bar">
+        <div class="app-icon-nav">
+            <img class="nav-img play" src="./assets/icons/google-playstore.svg" alt="appicon">
+            <p class="title-icon">Google <span>Play</span></p>
+        </div>
+
+        <!-- searchbar -->
+        <div class="nav-search">
+            <img class="nav-img search" src="./assets/icons/search (1).svg" alt="search-icon">
+            <input class="search-bar-nav search-icon" type="text" placeholder="search me . . .">
+        </div>
+
+        <div class="profile">
+            <img class="nav-img mode" src="./assets/icons/darkmode.svg" alt="" onclick="HandleEvent()">
+            <div class="profile-icon">
+                <img src="./assets/images/IMG-20250919-WA0066(1).jpg.png" alt="">
+            </div>
+        </div>
+
+    </header>
+
+    <section class="categories">
+        <button class="reightbtn">></button>
+        <button class="cat-btn btn" id="All">All</button>
+        <button class="cat-btn btn" id="Social">Social</button>
+        <button class="cat-btn btn" id="Music">Music</button>
+        <button class="cat-btn btn" id="Entertainment">Entertainment</button>
+        <button class="cat-btn btn" id="Tools">Toools</button>
+        <button class="cat-btn btn" id="Education">Education</button>
+        <button class="cat-btn btn" id="Games">Games</button>
+
+        <div class="Account">
+            <button class="cat-btn btn" id="Installed-apps">Installed-apps</button>
+        </div>
+    </section>
+
+    <!-- caategories -->
+    <main>
+        <section class="daily-updates">
+            <div class="boxes">
+                WELCOME TO THIS STORE
+            </div>
+        </section>
+        <section class="top-trending-apps">
+            <div class="Trending-div">
+                <p class="Trending-app-title">Top Trending</p>
+                <!-- <img class="filter-icon" src="./assets/icons/filter.svg" alt="filter"> -->
+            </div>
+            <div class="scrollX-app-div">
+
+
+            </div>
+        </section>
+        <section class="all-apps">
+            <div>
+                <p class="Trending-app-title">All Apps</p>
+            </div>
+            <div class="scrollY-app-div">
+            </div>
+        </section>
+
+    </main>
+    <div class="install-effect"></div>
+    <div id="toast"></div>
+
+    <script src="./src/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+:root{
+    --navicon:2.5rem
+}
+
+
+.nav-bar{
+    position: relative;
+    display: flex;
+    height: 3rem;
+    gap: 1rem;
+    width: 100%;
+    background:whitesmoke;
+    justify-content: space-between;
+    padding: 0 0.5rem 0 0.5rem;
+    align-items: center;
+    box-shadow: 0px 3px 10px rgb(100, 92, 92);
+}
+
+.app-icon-nav{
+    display: flex;
+}
+
+.nav-search{
+    position: relative;
+    display: flex;
+    width: 60%;
+    height: 2rem;
+    /* left: -5%; */
+}
+.profile{
+    display: flex;
+}
+
+.nav-img{
+    height: var(--navicon);
+    width: var(--navicon);
+   
+}
+
+
+/* searchbar */
+.search-bar-nav{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0.1px rgb(169, 154, 154) solid;
+    border-radius: 2rem;
+    background-color: transparent;
+    text-indent: 4rem;
+    /* display: none; */
+   
+}
+.search-bar-nav:placeholder-shown{
+    position: absolute;
+    text-align: center;
+    
+    overflow: hidden;
+}
+
+   .search{
+   height: 1.9rem;
+   padding-left:0.5rem ;
+   padding-top: 3px;
+   z-index: 0;
+    
+}
+
+/* profile */
+.profile-icon{
+    height: var(--navicon);
+    width: var(--navicon);
+    /* background-color: aqua; */
+    border-radius: 50%;
+}
+img{
+   height: 100%;
+   aspect-ratio: 12/12;
+   align-self: center;
+}
+/* mode-icon */
+.mode{
+    cursor: pointer;
+    height: 1.8rem;
+    width: var(--navicon);
+    align-self: center;
+    filter:  brightness(0.3) drop-shadow(2px 9px 5px rgba(0,0,0,0.5));
+}
+
+/* disabled */
+.title-icon{
+    display: none;
+}

@@ -1,0 +1,112 @@
+.all-apps {
+   
+}
+
+
+.scrollY-app-div {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5rem;
+
+}
+
+.appY-box{
+    flex-shrink: 0;
+    padding: 1.3rem 1.3rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 100%;
+    height: 24vh;
+    background: #f3e5e51c;
+    border-radius: 1rem;
+    border: 1px solid rgb(173, 159, 159);
+    box-shadow: inset 3px 3px 5px gray, 3px 3px 5px gray, 3px 1px 5px gray;
+    transform: translateY(30px);
+    animation: up 0.2s linear ;
+    
+    
+}
+.appY-box:nth-child(1){
+ animation-delay: 0.1s;
+}
+.appY-box:nth-child(2){
+ animation-delay: 0.2s;
+}
+.appY-box:nth-child(3){
+ animation-delay: 0.3s;
+}
+.appY-box:nth-child(4){
+ animation-delay: 0.4s;
+}
+.appY-box:nth-child(5){
+ animation-delay: 0.5s;
+}
+.appY-box:nth-child(6){
+ animation-delay: 0.6s;
+}
+.appY-box:nth-child(7){
+ animation-delay: 0.7s;
+}
+.appY-box:nth-child(8){
+ animation-delay: 0.8s;
+}
+.appY-box:nth-child(9){
+ animation-delay: 0.9s;
+}
+.appY-box:nth-child(10){
+ animation-delay: 0.1s;
+}
+@keyframes up{
+    from{
+        transform: translateY(10px);
+        opacity:0;
+    }
+    to{
+        transform: translateY(10px);
+        opacity: 1;
+    }
+}
+.appY-box:hover{
+    box-shadow: 0 0 10px red;
+
+}
+
+
+ /* all apps */
+.app-icon-div{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.4rem;
+    width: 3.4rem;
+    border-radius: 1rem;
+    background: rgb(166, 160, 160,0.6);
+    
+}
+.app-name{
+    font-size:medium;
+    font-weight: 900;
+}
+.company-name{
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    color: gray;
+}
+.app-img{
+    width: 3rem;
+    height: 3rem;
+    color: #000;
+    
+}
+
+.install-div{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}

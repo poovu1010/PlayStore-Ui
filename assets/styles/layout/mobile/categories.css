@@ -1,0 +1,25 @@
+/* main */
+main{
+ padding: 1.5rem 1rem;
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+}
+
+/* categories- section */
+.categories{
+    overflow: hidden;
+    padding-top: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: scroll;
+   
+    
+    
+   
+}
+
+
+.categories::-webkit-scrollbar{
+    display: none;
+}

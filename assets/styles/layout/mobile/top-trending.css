@@ -1,0 +1,92 @@
+.top-trending-apps{
+
+}
+
+.Trending-div{
+    display: flex;
+    justify-content: space-between;
+
+}
+.filter-icon{
+    filter: brightness(0);
+    cursor: pointer;
+    height: 1.7rem;
+}
+.Trending-app-title{
+font-weight:600;
+font-size: larger;
+
+}
+.scrollX-app-div{
+
+    margin-top: 1rem;
+    height: 19vh;
+    width: 100%;
+    display: flex;
+    overflow-x:auto ;
+    gap: 2rem;
+
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    
+   
+    
+}
+
+.appX-box{
+    padding: 1rem 1rem;
+    flex-shrink: 0;
+    width: 13rem;
+    height: 17vh;
+    background: #f3e5e51c;
+    border-radius: 1rem;
+    border:  1px solid rgb(173, 159, 159);
+    box-shadow:3px 1px 5px gray ;
+  
+}
+.row-div{
+    display: flex;
+    gap: 1rem;
+}
+
+
+ /* trending all apps */
+.appX-icon-div{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 1rem;
+    background: rgb(166, 160, 160,0.6);
+    
+}
+.appX-name{
+    font-size:small;
+    font-weight: 900;
+    /* align-self: center; */
+}
+.companyX-name{
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    color: gray;
+}
+.appX-img{
+    width: 2rem;
+    height: 2rem;
+    color: #000;
+    
+}
+
+.installX-div{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.appXsize{
+    font-size: small;
+    align-self: center;
+}

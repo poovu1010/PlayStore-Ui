@@ -1,0 +1,74 @@
+/* categories btn */
+
+.btn{
+    width: auto;
+    /* height: 1.5rem; */
+    padding:  0 0.8rem;
+    background-color: transparent;
+    border: 0.1px solid rgb(162, 149, 149);
+    border-radius: 3rem;
+    text-align: center;
+    cursor: pointer;
+}
+body.dark .btn {
+    color: aliceblue;
+}
+
+.install-btn {
+
+  background-color: #01875f; 
+  color: #ffffff;
+  padding: 8px 24px;       
+  border-radius: 20px;       
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;             
+  
+
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+
+.install-btn:hover {
+  background-color: #016d4d; /* Slightly darker green */
+}
+
+
+body.dark .install-btn {
+  background-color: #00a273;
+}
+.installX-btn {
+
+  background-color: #01875f; 
+  color: #ffffff;
+  padding: 5px 20px;       
+  border-radius: 15px;       
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;             
+
+
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+
+.install-btn:hover {
+  background-color: #016d4d; /* Slightly darker green */
+}
+
+
+body.dark .install-btn {
+  background-color: #00a273;
+}
+
+@media (max-width: 426px) {
+  .categories .reightbtn {
+    display: none ;
+  }
+}
